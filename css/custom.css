@@ -3,4 +3,6 @@ Site Name: Abstract Cherry
 Author: Christopher Bajgier (chris.bajgier@gmail.com, http://chris.bajgier.net)
 
 ******************************************************************/
-
+/* Main theme color: Cherry */
+#inner-header {
+  background-color: #df421e; }
