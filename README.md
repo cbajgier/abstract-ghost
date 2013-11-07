@@ -5,3 +5,8 @@ abstract-ghost
 ####Original style.css (Wordpress):####
 
 https://gist.github.com/cbajgier/7347117
+
+####Built with:####
+
+Linen: http://themespectre.com/linen/
+And all the other cool stuff Linen includes
