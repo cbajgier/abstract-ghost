@@ -46,7 +46,12 @@
 
         {{! Output the content of the header partial template }}
         {{> header}}
+        {{! The sidebar fills in the remaining four columns }}
+                <aside id="sidebar-main" class="sidebar fourcol clearfix" role="complementary">
+                    {{> sidebar}}
+                </aside>
 
+        
         <section id="content">
 
             {{! The 'inner' divs provide a nice wrapper for content to help with fluidity and responsiveness }}
@@ -55,12 +60,8 @@
                 {{! The main section uses eight columns in the grid framework }}
                 <main id="main" class="eightcol first clearfix" role="main">
                     {{{body}}}
+                                    
                 </main> <!-- end #main -->
-
-                {{! The sidebar fills in the remaining four columns }}
-                <aside id="sidebar-main" class="sidebar fourcol clearfix" role="complementary">
-                    {{> sidebar}}
-                </aside>
 
             </div> <!-- end #inner-content -->
 
@@ -68,7 +69,7 @@
 
         <footer class="footer" role="contentinfo">
             <div id="inner-footer" class="wrap clearfix">
-                <p class="source-org copyright">© 2013 Theme Spectre, LLC.</p>
+                <p class="source-org copyright">© 2013 {{author.name}}</p>
             </div> <!-- end #inner-footer -->
         </footer> <!-- end footer -->
 
